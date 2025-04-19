@@ -61,68 +61,27 @@ export default function Home() {
   </div>
 </section>
 {/* video description end */}
-  {/* <section className="services">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="owl-service-item owl-carousel">
-          
-            <div className="item">
-              <div className="icon">
-                <img src="assets/images/service-icon-01.png" alt=""/>
-              </div>
-              <div className="down-content">
-                <h4>Best Education</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-            <div className="item">
-              <div className="icon">
-                <img src="assets/images/service-icon-02.png" alt=""/>
-              </div>
-              <div className="down-content">
-                <h4>Best Teachers</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-            <div className="item">
-              <div className="icon">
-                <img src="assets/images/service-icon-03.png" alt=""/>
-              </div>
-              <div className="down-content">
-                <h4>Best Students</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-            <div className="item">
-              <div className="icon">
-                <img src="assets/images/service-icon-02.png" alt=""/>
-              </div>
-              <div className="down-content">
-                <h4>Online Meeting</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-            <div className="item">
-              <div className="icon">
-                <img src="assets/images/service-icon-03.png" alt=""/>
-              </div>
-              <div className="down-content">
-                <h4>Best Networking</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
+{/* theme section start */}
+<section className="theme-area my-5">
+  <div className="container-fluid">
+   <div className="container text-center">
+   <h1>THEMES</h1>
+    <h2>
+"For every complex problem there is a solution that is concise, clear, simple, and wrong."</h2>
+   </div>
+    <div className="container py-3">
+    <div className="card" style={{width: "400px"}}>
+  <img src="https://images.unsplash.com/photo-1620200423727-8127f75d7f53?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="card-img-top" alt="..."/>
+  <div className="card-body ">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
     </div>
-  </section> */}
-
+  </div>
+</section>
+{/* theme section end */}
   <section className="upcoming-meetings" id="meetings">
     <div className="container">
       <div className="row">
