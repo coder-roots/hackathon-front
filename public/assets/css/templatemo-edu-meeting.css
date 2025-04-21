@@ -699,7 +699,12 @@ background-color: #212529;
   font-size:30px ;
   font-weight: 900;
 }
-
+.banner-caption{
+  position: absolute;
+  top: 300px;
+  left: 25%;
+  text-transform: uppercase;
+}
 @media screen and (max-width: 767px) {
 
   .main-banner .caption h6 {
@@ -711,6 +716,7 @@ background-color: #212529;
   }
 
 }
+
 /* 
 ---------------------------------------------
 banner end
@@ -722,7 +728,7 @@ moving text
 --------------------------------------------- 
 */
 .movingwords {
-  color: #212529;
+  color: #333333;
   position: relative;
   animation: move-words 20s linear infinite;
 
@@ -747,27 +753,33 @@ winner section start
 */
 .winner{
   margin: 35px;
+
 }
 .winner-detail{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #141414;
-  justify-content: space-between;
+  flex-wrap: wrap;
+padding: 10px;
+  justify-content: space-evenly;
   margin: 15px;
+  
 }
 .winner-detail img{
-  height: 280px;
+  height: 320px;
   border-radius: 50%;
-  width: 250px;
+  width: 290px;
 }
 .winner-detail h2{
-  color: 	#cc6c5c;
+  color: 	#c15c4a;
+  font-size: 45px;
+  text-transform: uppercase;
 }
 .winner-detail button{
   margin: 20px;
   border-radius: 15px;
 }
+
 /* 
 ---------------------------------------------
 winner section end
@@ -779,17 +791,18 @@ about section end
 --------------------------------------------- 
 */
 .about{
-  background-color: #f8d8cc;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 25px;
+  color: #333333;
 }
 .about-data{
-  
+  color: #333333;
   margin: 25px;
 }
 .about p{
+  color: #333333;
   font-size: 25px;
 }
 /* 
@@ -818,8 +831,17 @@ theme section start
 ---------------------------------------------
 */
 .theme-area{
-  background: url('https://images.unsplash.com/photo-1622798023168-76a8f3b1f24e?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background: url('https://images.unsplash.com/photo-1528460033278-a6ba57020470?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
      background-repeat: no-repeat;
+     
+}
+.card{
+  width: 550px;
+  
+}
+.cards:hover{
+  z-index: 50;
+  width: 600px;
 }
 .
 /*

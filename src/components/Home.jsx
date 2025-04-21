@@ -12,13 +12,13 @@ export default function Home() {
 <div id="carouselExampleControls" className="carousel slide"  data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://www.shutterstock.com/shutterstock/photos/2480023489/display_1500/stock-photo-hands-typing-on-laptop-with-programming-code-on-screen-representing-software-development-perfect-2480023489.jpg" className="d-block w-100" height={"600px"} alt="..."/>
+      <img src="https://plus.unsplash.com/premium_photo-1667761634654-7fcf176434b8?q=80&w=2037&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" style={{height:"85vh"}} alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://www.shutterstock.com/shutterstock/photos/1889569450/display_1500/stock-photo-hackathon-inscription-against-laptop-and-code-background-technology-concept-1889569450.jpg" className="d-block w-100" height={"600px"} alt="..."/>
+      <img src="https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?q=80&w=1912&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" style={{height:"85vh"}} alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://media.istockphoto.com/id/1255034209/vector/hackathon-isometric-landing-software-development.jpg?s=1024x1024&w=is&k=20&c=fj5Do7ftqzY3oxUX4vGKOscixpPi1KbOQEodAkoukks=" className="d-block w-100" height={"600px"} alt="..."/>
+      <img src="https://plus.unsplash.com/premium_photo-1674729243673-0b5e871a8a24?q=80&w=2135&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" style={{height:"85vh"}} alt="..."/>
     </div>
   </div>
   <button className="carousel-control-prev adjustment" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -30,7 +30,9 @@ export default function Home() {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
+<h2 className="banner-caption">welcome hackify by sbssu</h2>
   </section>
+
   {/*<!-- ***** Main Banner Area End ***** --> */}
 {/* moving text start */}
 
@@ -62,6 +64,8 @@ export default function Home() {
 </section>
 {/* video description end */}
 {/* theme section start */}
+
+{/* ************************ */}
 <section className="theme-area my-5">
   <div className="container-fluid">
    <div className="container text-center">
@@ -70,7 +74,9 @@ export default function Home() {
 "For every complex problem there is a solution that is concise, clear, simple, and wrong."</h2>
    </div>
     <div className="container py-3">
-    <div className="card" style={{width: "400px"}}>
+      <div className="row">
+        <div className="col-lg-4">
+            <div className="card cards" >
   <img src="https://images.unsplash.com/photo-1620200423727-8127f75d7f53?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="card-img-top" alt="..."/>
   <div className="card-body ">
     <h5 className="card-title">Card title</h5>
@@ -78,11 +84,34 @@ export default function Home() {
     <a href="#" className="btn btn-primary">Go somewhere</a>
   </div>
 </div>
+        </div>
+        <div className="col-lg-4">
+          <div className="card cards" >
+  <img src="https://images.unsplash.com/photo-1620200423727-8127f75d7f53?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="card-img-top" alt="..."/>
+  <div className="card-body ">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+        </div>
+        <div className="col-lg-4">  <div className="card cards" >
+  <img src="https://images.unsplash.com/photo-1620200423727-8127f75d7f53?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="card-img-top" alt="..."/>
+  <div className="card-body ">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+      
+        </div>
+  
+
     </div>
   </div>
 </section>
 {/* theme section end */}
-  <section className="upcoming-meetings" id="meetings">
+  {/* <section className="upcoming-meetings" id="meetings">
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
@@ -177,9 +206,9 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
 
-  <section className="apply-now" id="apply">
+  {/* <section className="apply-now" id="apply">
     <div className="container">
       <div className="row">
         <div className="col-lg-6 align-self-center">
@@ -265,9 +294,9 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
 
-  <section className="our-courses" id="courses">
+  {/* <section className="our-courses" id="courses">
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
@@ -542,9 +571,9 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
 
-  <section className="our-facts">
+  {/* <section className="our-facts">
     <div className="container">
       <div className="row">
         <div className="col-lg-6">
@@ -593,7 +622,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
 
 
 
